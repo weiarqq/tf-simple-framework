@@ -1,7 +1,7 @@
 import tensorflow as tf
 
 
-# 加载模型参数
+# 加载模型参数1
 def init_checkpoints(modeling, model_path):
     tvars = tf.trainable_variables()
     (assignment_map, initialized_variable_names) = modeling.get_assignment_map_from_checkpoint(tvars, model_path)
