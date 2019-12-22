@@ -13,7 +13,7 @@ def input():
     dataset = dataset.make_one_shot_iterator()
     d = dataset.get_next()
     return d
-i = 0
+i = 10
 while i < 6:
     print(input())
     i += 1
